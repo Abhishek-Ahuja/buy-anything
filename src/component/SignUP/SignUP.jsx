@@ -9,6 +9,7 @@ import './SignUp.css'
 import { Button, IconButton, InputAdornment } from '@mui/material';
 import { useState } from 'react';
 import { useRef } from 'react';
+import MuiPhoneNumber from 'material-ui-phone-number';
 
 function SignUp() {
     const [showPassword, setShowPassword] = useState(false);
@@ -117,6 +118,8 @@ function SignUp() {
                 }}
                 onChange = {showPasswordError}
                 />
+
+            <MuiPhoneNumber defaultCountry={'in'} />,
 
             <Button
               type="submit"
