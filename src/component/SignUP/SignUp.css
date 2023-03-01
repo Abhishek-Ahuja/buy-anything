@@ -5,21 +5,17 @@
     height: 100vh;
 }
 
-.signUp_heading{
-    color: red;
-}
-
-.login_emailIcon{
+.signUp_emailIcon{
     color: gray;
     margin-right: 10px;
 
 }
 
-.login_emailIcon > .MuiSvgIcon-root{
+.signUp_emailIcon > .MuiSvgIcon-root{
     font-size: 5px;
 }
 
-.login_button{
+.signUp_button{
     margin-top: 15px;
     border-radius: 20px;
     outline: none;

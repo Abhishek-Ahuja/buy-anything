@@ -1,5 +1,6 @@
 
 import './App.css'
+import Login from './component/login/Login'
 import SignUp from './component/SignUp/SignUp'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <SignUp />
+      <Login />
     </div>
   )
 }

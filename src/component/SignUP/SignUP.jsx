@@ -72,7 +72,7 @@ function SignUp() {
             <h2>SignUp</h2>
         </div>
         <Box component='form' onSubmit={handleSubmit} sx={{ mt: 1 }}>
-            <div className='login_form'>
+            <div className='signUp_form'>
                 <TextField
                 variant='standard'
                 margin='normal'
@@ -86,7 +86,7 @@ function SignUp() {
                 inputRef={emailRef}
                 label= 'Email'
                 InputProps={{
-                    startAdornment : <EmailOutlinedIcon className='login_emailIcon' style={{ fontSize: 18 }} />
+                    startAdornment : <EmailOutlinedIcon className='signUp_emailIcon' style={{ fontSize: 18 }} />
                 }}
                 onChange = {showEmailError}
                 />
@@ -103,13 +103,13 @@ function SignUp() {
                 fullWidth
                 required
                 InputProps={{
-                    startAdornment : <KeyOutlinedIcon className='login_emailIcon' style={{ fontSize: 18 }}  />,
+                    startAdornment : <KeyOutlinedIcon className='signUp_emailIcon' style={{ fontSize: 18 }}  />,
                     endAdornment : (
                         <InputAdornment position='end' >
                             <IconButton onClick={handlePassword}  style={{ outline:"none" }} >
                                 {
-                                    showPassword ? <VisibilityOff className='login_emailIcon' style={{ fontSize: 18, marginLeft:"7" }} />  
-                                    : <Visibility className='login_emailIcon' style={{ fontSize: 18,  marginLeft:"7" }} />
+                                    showPassword ? <VisibilityOff className='signUp_emailIcon' style={{ fontSize: 18, marginLeft:"7" }} />  
+                                    : <Visibility className='signUp_emailIcon' style={{ fontSize: 18,  marginLeft:"7" }} />
                                 }
                             </IconButton>
                         </InputAdornment>
@@ -124,9 +124,9 @@ function SignUp() {
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
               style={{ outline:"none", borderRadius:20}}
-              className="login_button"
+              className="signUp_button"
             >
-              Sign In
+              SignUp
             </Button>
             </div>
         </Box>
