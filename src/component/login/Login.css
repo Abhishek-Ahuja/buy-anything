@@ -1,22 +1,60 @@
+
 .login{
-    margin: auto;
+    border: 1px solid orange; 
+    
+    height: auto;
+    margin:auto;
+    width: 50%;
+    padding: 30px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.login_heading{
     text-align: center;
-    width: 30%;
-    height: 100vh;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.login_emailIcon{
-    color: gray;
-    margin-right: 10px;
-
+.login_field{
+    display: flex;
+    flex-direction: column;
 }
 
-.login_emailIcon > .MuiSvgIcon-root{
-    font-size: 5px;
+
+
+.login_forgot_comp{
+   
+        margin-top: 16px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+
+.login_forgot:hover{
+    text-decoration: underline;
 }
 
-.login_button{
-    margin-top: 15px;
+.login_field > button{
     border-radius: 20px;
+    background-color: lightgreen;
+    margin-bottom: 16px;
+}
+
+.login_connection {
+    text-align: center;
+
+}
+.login_connIcons    {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 70px 0 70px;
+
+}
+
+.Icon{
+    font-size: 20px;
     outline: none;
 }

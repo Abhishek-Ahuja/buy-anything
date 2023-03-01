@@ -1,0 +1,26 @@
+.signUp{
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    height: 100vh;
+}
+
+.signUp_heading{
+    color: red;
+}
+
+.login_emailIcon{
+    color: gray;
+    margin-right: 10px;
+
+}
+
+.login_emailIcon > .MuiSvgIcon-root{
+    font-size: 5px;
+}
+
+.login_button{
+    margin-top: 15px;
+    border-radius: 20px;
+    outline: none;
+}
